@@ -1,0 +1,16 @@
+h1 {
+    color: #00ccff;
+}
+
+h3 {
+    color: #80e5ff;
+}
+
+.navbar-brand {
+    background-color: #00ccff;
+    color: white;
+}
+
+.dropdown-menu {
+    color: darkgray;
+}
