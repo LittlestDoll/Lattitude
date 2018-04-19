@@ -7,7 +7,6 @@
         <meta charset="UTF-8">
         <title>Lattitude</title>
         <link href="./css/styles.css" type="text/css" rel="stylesheet">
-        <link href="./css/reset.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <nav>
@@ -31,16 +30,24 @@
             </div>
         </nav>
         <div class="Home">
-            <h1>Weather Analysis</h1>
-            <p>For this project, I was tasked with analyzing the weather in relation to a location's proximity to the equator.</p> 
-            <p>Follow the links above to find out what I discovered!</p>
-        </div>   
-        <div class="Visualizations">
-            <h1>Visualizations</h1>
-            <a href="Temp.html"><img src="./resources/LatVTemp.png" alt="Max Temperature visualization"></a>
-            <a href="Humidity.html"><img src="./resources/LatVHumidity.png" alt="Humidity visualization"></a>
-            <a href="Clouds.html"><img src="./resources/LatVClouds.png" alt="Cloudiness visualization"></a>
-            <a href="Wind.html"><img src="./resources/LatVWind.png" alt="Wind Speed visualization"></a>
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Weather Analysis</h1>
+                    <p>For this project, I was tasked with analyzing the weather in relation to a location's proximity to the equator.</p> 
+                    <p>Follow the links above to find out what I discovered!</p>
+                </div>      
+                <div class="col-md-8">     
+                <h1>Visualizations</h1>
+                <div class="col-sm-6">
+                    <a class="viz" href="Temp.html"><img src="./resources/LatVTemp.png" alt="Max Temperature visualization"></a>
+                    <a class="viz" href="Humidity.html"><img src="./resources/LatVHumidity.png" alt="Humidity visualization"></a>
+                </div>
+                <div class="col-sm-6">    
+                    <a class="viz" href="Clouds.html"><img src="./resources/LatVClouds.png" alt="Cloudiness visualization"></a>
+                    <a class="viz" href="Wind.html"><img src="./resources/LatVWind.png" alt="Wind Speed visualization"></a>
+                </div>  
+                </div>
+            </div>
         </div>
     </body>
 </html>

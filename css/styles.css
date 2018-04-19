@@ -1,9 +1,16 @@
-h1 {
-    color: #00ccff;
+body {
+    background-color: lightgray;
+    font-size: 2em;
 }
 
-h3 {
-    color: #80e5ff;
+h1 {
+    color: #00ccff;
+    size: 10em;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -14,3 +21,9 @@ h3 {
 .dropdown-menu {
     color: darkgray;
 }
+
+.viz {
+    object-fit: cover;
+}
+
+
