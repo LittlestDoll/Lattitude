@@ -26,4 +26,8 @@ nav {
     object-fit: cover;
 }
 
+.table-responsive {
+    background-color: white;
+    margin: 10px;
+}
 
